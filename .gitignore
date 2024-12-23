@@ -1,2 +1,15 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Language-specific files
+# Add any language-specific ignore entries here
+
+# Framework-related files
 .next
+
+# Package manager directories
 node_modules
+.pnpm-store
+pnpm-lock.yaml
