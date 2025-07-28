@@ -4,12 +4,16 @@
 .breakpoints
 
 # Language-specific files
-# Add any language-specific ignore entries here
+*.log
+*.tsbuildinfo
+dist/
+build/
 
 # Framework-related files
-.next
+.next/
+out/
+.vercel
 
 # Package manager directories
-node_modules
-.pnpm-store
-pnpm-lock.yaml
+node_modules/
+.pnpm-store/
